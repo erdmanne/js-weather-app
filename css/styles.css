@@ -55,16 +55,20 @@ body{
   text-align: center;}
 
 
+.weather-container {
 
-
-.h2{
-  text-align: center;
-  font-family: var(--font-family);
-  font-size: var(--font-size);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
 }
 
-.div {
-  text-align: center;
+.weather{
+  font-family: var(--h1-font-family);
+  font-size: 30px;
+}
+
+.icon {
+  bac
 }
 
 
