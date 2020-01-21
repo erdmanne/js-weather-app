@@ -39,19 +39,23 @@ hover: RGB(219, 202, 207)
 }
 
 body{
-  
+
   padding: 20px;
   font-family: var(--font-family);
-  font-size: var(--font-size);
+  font-size: 100%;
   background-image: url("../img/frozen.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .page-header {
   font-family: var(--h1-font-family);
   font-size: var(--h1-font-size);
   text-align: center;}
+
+
+
 
 .h2{
   text-align: center;
@@ -66,6 +70,25 @@ body{
 
 
 .page-footer{
+  margin-top: 50px;
   font-family: var(--h1-font-family);
   text-align: center;
+}
+
+/*for responsive design
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+  h1  { font-size: 2em
+
+    }
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    h1  { font-size: 1em
+
+      }
 }
