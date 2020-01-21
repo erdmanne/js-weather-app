@@ -1,4 +1,4 @@
-/*eva
+/*eva js weather app
 Colors used
 Text Color (black): #231815
 Third Color (Dark Gray): #2757474;
@@ -39,11 +39,13 @@ hover: RGB(219, 202, 207)
 }
 
 body{
-  background-size:cover;
+  
   padding: 20px;
   font-family: var(--font-family);
   font-size: var(--font-size);
-  background-image: url("../img/background.png");
+  background-image: url("../img/frozen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .page-header {
